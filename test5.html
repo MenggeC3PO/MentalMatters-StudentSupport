@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="wenjuan.css"/>
+		<meta charset="utf-8">
+		<title>调查问卷页面</title>
+        <style>
+        body{
+            background-image: url("wenjuan/wenjuan20.jpeg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+	</head>
+	<body>
+        <!--页面导航-->
+<div id="nav">
+    <div class="container">
+        <div class="header_left">
+            <div class="biaoti1">咱就是说！</div>
+            <div class="biaoti2">交大学生心理健康测试平台</div>
+        </div>
+        <ul class="right_ul">
+            <li class="right"><a class="nav_a" href="denglu.html">登录/注册</a></li>
+            <li class="right"><a class="nav_a" href="xiaozhishi.html">心理小知识</a></li>
+            <li class="right"><a class="nav_a" href="shudong.html">树洞</a></li>
+            <li class="right"><a class="nav_a" href="test.html">测试</a></li>
+            <li class="right"><a class="nav_a" href="jianjie.html">简介</a></li>
+            <li class="right"><a class="nav_a" href="index.html">首页</a></li>
+        </ul>
+    </div>
+</div>
+        <form >
+            <div class="neirong">
+                <p><b>1.你会经常回忆儿时的事情吗?</b></p>
+                <p>
+                    <input onclick="begintimer()" type="radio" value="12" name="c1" />A.是的
+                    <input onclick="begintimer()" type="radio" value="32" name="c1" />B.不是
+                    <input onclick="begintimer()" type="radio" value="32" name="c1" />C.还好
+                </p>
+                <p><b>2.在工作中你能为团队做出什么贡献?</b></p>
+                <p>
+                    <input type="radio" value="11" name="c2" />A.做需要耐心才能完成的工作
+                    <input type="radio" value="31" name="c2" />B.搞好同事的关系
+                    <input type="radio" value="31" name="c2" />C.搞好后勤 
+                </p>
+                <p><b>3.你对工作会议或其他会议有什么想法?</b></p>
+                <p>
+                    <input type="radio" value="11" name="c3" />A.无聊 
+                    <input type="radio" value="31" name="c3" />B.有意义
+                    <input type="radio" value="31" name="c3" />C.无感
+                </p>
+                <p><b>4.当你与其他进行合作时你会怎么做?</b></p>
+                <p>
+                    <input type="radio" value="13" name="c4" />A.合作的很好
+                    <input type="radio" value="33" name="c4" />B.只希望自己能表现好，其他人怎么样无所谓
+                    <input type="radio" value="33" name="c4" />C.看心情 
+                </p>
+                <p><b>5.你早上起床有不想上课的想法吗?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c5" />A.是的
+                    <input type="radio" value="34" name="c5" />B.不是
+                    <input type="radio" value="34" name="c5" />C.还好
+                </p>
+                <p><b>6.在学习或工作中什么情况下会获得满足感?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c6" />A.受到夸奖
+                    <input type="radio" value="34" name="c6" />B.做到了别人完不成的任务
+                    <input type="radio" value="34" name="c6" />C.被嫉妒时
+                </p>
+                <p><b>7.你等车时通常喜欢干什么?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c7" />A.玩手机
+                    <input type="radio" value="34" name="c7" />B.东张西望
+                    <input type="radio" value="34" name="c7" />C.整理自己的衣着
+                </p>
+                <p><b>8.你对自己常用的交通工具有上锁的习惯吗?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c8" />A.没有
+                    <input type="radio" value="34" name="c8" />B.偶尔
+                    <input type="radio" value="34" name="c8" />C.有
+                </p>
+                <p><b>9.如果朋友邀请你一起去旅游，你不想去会用什么理由?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c9" />A.缺钱
+                    <input type="radio" value="34" name="c9" />B.身体不适
+                    <input type="radio" value="34" name="c9" />C.没空
+                </p>
+                <p><b>10.你剥桔子时喜欢一个完整的还是不完整的?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c10" />A.完整
+                    <input type="radio" value="34" name="c10" />B.不完整
+                    <input type="radio" value="34" name="c10" />C.无所谓
+                </p>
+                <p><b>11.你喜欢插花吗?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c11" />A.不喜欢
+                    <input type="radio" value="34" name="c11" />B.还好
+                    <input type="radio" value="34" name="c11" />C.很喜欢
+                </p>
+                <p><b>12.你对一次性餐具怎么看?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c12" />A.不常用
+                    <input type="radio" value="34" name="c12" />B.无所谓
+                    <input type="radio" value="34" name="c12" />C.经常用
+                </p>
+                <p><b>13.你对于集体共事时遇到问题会怎么做?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c13" />A.自己一个人想办法
+                    <input type="radio" value="34" name="c13" />B.开会大家一起想办法
+                    <input type="radio" value="34" name="c13" />C.跟几个精英一起解决问题
+                </p>
+                <p><b>14.在地铁上你给老人让的座被抢了，你会?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c14" />A.算了
+                    <input type="radio" value="34" name="c14" />B.让那人站起来
+                    <input type="radio" value="34" name="c14" />C.鄙视的骂几句
+                </p>
+                <p><b>15.如果书桌上可以放一个物品，你会选择哪个?</b></p>
+                <p>
+                    <input type="radio" value="14" name="c15" />A.喜欢的杯子
+                    <input type="radio" value="34" name="c15" />B.小盆栽
+                    <input type="radio" value="34" name="c15" />C.装饰物品
+                </p>
+                <br /><br /><br />
+                <p><input id="btn" onclick=" processForm()" type="button" value="查看测试结果" /></p>
+                <br /><br />
+                </div>
+            </form>
+            <p class="a">返回主页面？ <a href="index.html">返回</a></p>
+            <br>
+            <p class="a">返回测试页面？ <a href="test.html">返回</a></p>
+            <br>
+            <script language="JavaScript">
+                function processForm() {
+                    var sum = 0;
+                    var j=0;
+                    var check=0;
+                    //创建数组
+                    hc = new Array(15);
+                    //如果识别到文档中表单see中第一个问题的第一个选项被选中就使sum+该选项得分
+                    if (document.see.c1[0].checked == 1) sum += 5;
+                    else check++;
+                    if (document.see.c1[1].checked == 1) sum += 3;
+                    else check++;
+                    if (document.see.c1[2].checked == 1) sum += 1;
+                    else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c2[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c2[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c2[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c3[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c3[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c3[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c4[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c4[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c4[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c5[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c5[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c5[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c6[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c6[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c6[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c7[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c7[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c7[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c8[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c8[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c8[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;;
+                    check=0;
+                    if (document.see.c9[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c9[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c9[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c10[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c10[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c10[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c11[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c11[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c11[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c12[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c12[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c12[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c13[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c13[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c13[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c14[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c14[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c14[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c15[0].checked == 1) sum += 5;else check++;
+                    if (document.see.c15[1].checked == 1) sum += 3;else check++;
+                    if (document.see.c15[2].checked == 1) sum += 1;else check++;
+                    if(check==3) j++;
+                    check=0;                   
+                    if(j)alert("您有题目没有完成\n为保证测试结果的准确性请完成所有题目再提交结果😘");
+                    if(j==0&&sum <= 30) alert("列夫托尔斯泰说过：勇敢是智慧和一定程度教养的必然结果。也就是一个人拥有了先天的智慧，再加上后天的教养，必定会是勇敢的人。你最大的特点就是勇敢，不过你不是“逞”勇，也不可能是“莽”勇，而是为了伸张正义和正气的士君子之勇。在对待值得追求的事情上，你一定会勇往直前。");
+                    if (j==0&&sum <= 45 && sum >= 31) alert("你最特别的个性就是自信，可能你自己不觉得这个优点有什么了不起，要知道，自信不等同于自大。它是一种坚毅，拥有很强大的力量。自信从不盲从，它是刻苦磨炼出的能力凝结而成。你不会育目接受自己完成不了的任务，更不发誓赌咒地承诺做不到的事情，但对有把握的事情，你一定会很果敢地承担。");
+                    if (j==0&&sum <= 60 && sum >= 46) alert("另类，另类你的生活态度，是一种不顾他人或赞或鄙的眼光，坚持内心所求的坚毅，是要付出一生才能达到的高度。你敢于抛下功名利禄，追求自己的理想，你的另类不是拿来标榜自身的。做出一些标新立异的言行，以求出众，而是顽固地坚持自我，守住内心的执着，成为自己的“另类”，于自身才有最切实的价值。");
+                    if (j==0&&sum <= 75 && sum >= 61) alert("可爱。你能够维持美好的心，这个世界既没有幸福也没有不幸，不管在任何境地，你都能乐观积极，保持童真。你觉得只要活着，就得爱着。就算这爱小得仅如一根稻草，无关饱暖，也不能救人于水火，但是，你相信世问真的有无私的爱存在，你坚信世界还是美好的。这的你能温暖身边的人，自己的人生态度也比较豁达。");
+                }
+            </script>
+      
+    </body>
+</html>

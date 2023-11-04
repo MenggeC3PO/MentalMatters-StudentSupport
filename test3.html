@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="wenjuan.css"/>
+		<meta charset="utf-8">
+		<title>调查问卷页面</title>
+        <style>
+        body{
+            background-image: url("wenjuan/wenjuan16.jpeg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+	</head>
+	<body>
+        <!--页面导航-->
+<div id="nav">
+    <div class="container">
+        <div class="header_left">
+            <div class="biaoti1">咱就是说！</div>
+            <div class="biaoti2">交大学生心理健康测试平台</div>
+        </div>
+        <ul class="right_ul">
+            <li class="right"><a class="nav_a" href="denglu.html">登录/注册</a></li>
+            <li class="right"><a class="nav_a" href="xiaozhishi.html">心理小知识</a></li>
+            <li class="right"><a class="nav_a" href="shudong.html">树洞</a></li>
+            <li class="right"><a class="nav_a" href="test.html">测试</a></li>
+            <li class="right"><a class="nav_a" href="jianjie.html">简介</a></li>
+            <li class="right"><a class="nav_a" href="index.html">首页</a></li>
+        </ul>
+    </div>
+</div>
+        <form name="see">
+            <div class="neirong">
+                <p><b>1. 平时不知为什么总觉得心慌意乱，坐立不安.</b></p>
+                <p>
+                    <input onclick="begintimer()" type="radio" value="12" name="c1" />完全没有
+                    <input onclick="begintimer()" type="radio" value="32" name="c1" />偶尔是
+                    <input onclick="begintimer()" type="radio" value="32" name="c1" />常常是
+                </p>
+                <p><b>2.上床后，怎么也睡不着，即使睡着也容易惊醒。</b></p>
+                <p>
+                    <input type="radio" value="11" name="c2" />完全没有
+                    <input type="radio" value="31" name="c2" />偶尔是
+                    <input type="radio" value="31" name="c2" />常常是
+                </p>
+                <p><b>3. 经常做恶梦，惊恐不安，早晨醒来就感到倦怠无力、焦虑烦躁。</b></p>
+                <p>
+                    <input type="radio" value="11" name="c3" />完全没有
+                    <input type="radio" value="31" name="c3" />偶尔是
+                    <input type="radio" value="31" name="c3" />常常是
+                </p>
+                <p><b>4.经常早醒 1-2小时．醒后很难再入睡。</b></p>
+                <p>
+                    <input type="radio" value="13" name="c4" />完全没有
+                    <input type="radio" value="33" name="c4" />偶尔是
+                    <input type="radio" value="33" name="c4" />常常是
+                </p>
+                <p><b>5.学习的压力常使自己感到非常烦躁，讨厌学习。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c5" />完全没有
+                    <input type="radio" value="34" name="c5" />偶尔是
+                    <input type="radio" value="34" name="c5" />常常是
+                </p>
+                <p><b>6.读书看报甚至在课堂上也不能专心一致，往往自己也搞不清在想什么。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c6" />完全没有
+                    <input type="radio" value="34" name="c6" />偶尔是
+                    <input type="radio" value="34" name="c6" />常常是
+                </p>
+                <p><b>7. 遇到不称心的事情便较长时间地沉默少言。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c7" />完全没有
+                    <input type="radio" value="34" name="c7" />偶尔是
+                    <input type="radio" value="34" name="c7" />常常是
+                </p>
+                <p><b>8.感到很多事情不称心 ，无端发火。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c8" />完全没有
+                    <input type="radio" value="34" name="c8" />偶尔是
+                    <input type="radio" value="34" name="c8" />常常是
+                </p>
+                <p><b>9. 哪怕是一件小事情，也总是很放不开，整日思索。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c9" />完全没有
+                    <input type="radio" value="34" name="c9" />偶尔是
+                    <input type="radio" value="34" name="c9" />常常是
+                </p>
+                <p><b>10. 感到现实生活中没有什么事情能引起自己的乐趣，郁郁寡欢。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c10" />完全没有
+                    <input type="radio" value="34" name="c10" />偶尔是
+                    <input type="radio" value="34" name="c10" />常常是
+                </p>
+                <p><b>11.老师讲概念，常常听不懂，有时懂得快忘得也快。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c11" />完全没有
+                    <input type="radio" value="34" name="c11" />偶尔是
+                    <input type="radio" value="34" name="c11" />常常是
+                </p>
+                <p><b>12. 遇到问题常常举棋不定，迟疑再三。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c12" />完全没有
+                    <input type="radio" value="34" name="c12" />偶尔是
+                    <input type="radio" value="34" name="c12" />常常是
+                </p>
+                <p><b>13. 经常与人争吵发火，过后又后悔不已。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c13" />完全没有
+                    <input type="radio" value="34" name="c13" />偶尔是
+                    <input type="radio" value="34" name="c13" />常常是
+                </p>
+                <p><b>14.经常追悔自己做过的事，有负疚感。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c14" />完全没有
+                    <input type="radio" value="34" name="c14" />偶尔是
+                    <input type="radio" value="34" name="c14" />常常是
+                </p>
+                <p><b>15.一遇到考试，即使有准备也紧张焦虑。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c15" />完全没有
+                    <input type="radio" value="34" name="c15" />偶尔是
+                    <input type="radio" value="34" name="c15" />常常是
+                </p>
+                <p><b>16.一遇挫折，便心灰意冷，丧失信心。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c16" />完全没有
+                    <input type="radio" value="34" name="c16" />偶尔是
+                    <input type="radio" value="34" name="c16" />常常是
+                </p>
+                <p><b>17. 非常害怕失败，行动前总是提心吊胆，畏首畏尾。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c17" />完全没有
+                    <input type="radio" value="34" name="c17" />偶尔是
+                    <input type="radio" value="34" name="c17" />常常是
+                </p>
+                <p><b>18. 感情脆弱，稍不顺心，就暗自流泪。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c18" />完全没有
+                    <input type="radio" value="34" name="c18" />偶尔是
+                    <input type="radio" value="34" name="c18" />常常是
+                </p>
+                <p><b>19. 自己瞧不起自己，觉得别人总在嘲笑自己。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c19" />完全没有
+                    <input type="radio" value="34" name="c19" />偶尔是
+                    <input type="radio" value="34" name="c19" />常常是
+                </p>
+                <p><b>20. 喜欢跟自己年幼或能力不如自己的人一起玩或比赛。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c20" />完全没有
+                    <input type="radio" value="34" name="c20" />偶尔是
+                    <input type="radio" value="34" name="c20" />常常是
+                </p>
+                <br /><br /><br />
+                <p><input id="btn" onclick=" processForm()" type="button" value="查看测试结果" /></p>
+                <br /><br />
+                </div>
+            </form>
+            <p class="a">返回主页面？ <a href="index.html">返回</a></p>
+            <br>
+            <p class="a">返回测试页面？ <a href="test.html">返回</a></p>
+            <br>
+            <script language="JavaScript">
+                function processForm() {
+                    var sum = 0;
+                    var j=0;
+                    var check=0;
+                    //创建数组
+                    hc = new Array(20);
+                    //如果识别到文档中表单see中第一个问题的第一个选项被选中就使sum+该选项得分
+                    if (document.see.c1[0].checked == 1) sum += 0;
+                    else check++;
+                    if (document.see.c1[1].checked == 1) sum += 1;
+                    else check++;
+                    if (document.see.c1[2].checked == 1) sum += 2;
+                    else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c2[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c2[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c2[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c3[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c3[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c3[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c4[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c4[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c4[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c5[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c5[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c5[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c6[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c6[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c6[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c7[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c7[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c7[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c8[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c8[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c8[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;;
+                    check=0;
+                    if (document.see.c9[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c9[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c9[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c10[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c10[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c10[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c11[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c11[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c11[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c12[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c12[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c12[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c13[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c13[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c13[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c14[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c14[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c14[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c15[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c15[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c15[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c16[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c16[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c16[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c17[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c17[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c17[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c18[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c18[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c18[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c19[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c19[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c19[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;
+                    if (document.see.c20[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c20[1].checked == 1) sum += 1;else check++;
+                    if (document.see.c20[2].checked == 1) sum += 2;else check++;
+                    if(check==3) j++;
+                    check=0;    
+                    if(j)alert("您有题目没有完成\n为保证测试结果的准确性请完成所有题目再提交结果😘");
+                    if(j==0&&sum <= 4) alert("心理非常健康，请你放心，但是也应该时刻关注自身心理健康，保持心情愉悦。😁");
+                    if (j==0&&sum <= 8 && sum >= 5) alert("大致还属于健康的范围，但应时刻关注自身心理健康，遇到烦心事或者苦恼时也可以找老师或同学聊，及时疏导😃");
+                    if (j==0&&sum <= 15 && sum >= 9) alert("你在心理方面有了一些障碍，应采取适当的方法进行调适，或找心理辅导老师帮助你，也可以多培养一下兴趣爱好🙂");
+                    if (j==0&&sum <= 20 && sum >= 16) alert("是黄牌警告，有可能患了某些心理疾病，应找专门的心理医生进行检查治疗，但也不必过于惊慌，保持好心态很重要🙁❤");
+                    if (j==0 && sum >= 20) alert("有较严重的心理障碍，应及时找专门的心理医生治疗，并且积极配合治疗😟❤");
+                }
+            </script>
+      
+    </body>
+</html>

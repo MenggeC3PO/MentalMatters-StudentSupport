@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    float: none;
+}
+body{
+    background-image: url("wangyebeijing3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    width: 1280px;
+    margin: 0px auto;
+    border-color: white;
+}
+
+/*页面导航*/
+#nav{
+    height: 100px;
+    width: 100%;
+    background-image: url("beijing513.jpg") ;
+}
+.header{
+    padding-right: 9px;
+}
+.header_left{
+    float: left;
+    margin-top: 12px;
+    margin-left: 1px;
+}
+.biaoti1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.biaoti2{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.right_ul{
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-right: 26px;
+}
+.nav_a{
+    font-size: 28px;
+    border-right: 1px solid #b2b2b2;
+    padding: 0px 15px;
+}
+.nav_a:hover{
+    font-size: 28px;
+    border-right: 1px solid #b2b2b2;
+    padding: 0px 15px;
+    color: cornflowerblue;
+}
+/*测试*/
+#test{
+    height: 1200px;
+}
+.ceshi{
+    border: 3px solid darkgray;
+    margin: 100px 50px 40px;
+    height: 800px;
+    line-height: 60px;
+    background: rgba(245, 223, 124, 0.295);
+}
+.ceshi_h{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.ceshi_ul,.ceshi_li{
+    list-style-type: inherit;
+}
+.ceshi_ul{
+    padding:10px 280px 0px
+}
+a:hover{
+    color: cornflowerblue;
+}
+/*底部*/
+#footer{
+    height: 40px;
+    margin-bottom: -20px;
+    }
+    .footer_wenzi{
+        line-height: 40px;
+        text-align: center;
+    }
+    .footer_wenzi_a{
+        padding: 10px 10px 20px;
+    }
+    .footer_wenzi_a:hover{
+        padding: 10px 10px 20px;
+        color: khaki;
+    }

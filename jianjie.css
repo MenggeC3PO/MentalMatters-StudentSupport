@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    float: none;
+}
+.container{
+    width: 1280px;
+    margin: 0px auto;
+    border-color: white;
+}
+body{
+    background-image: url("wangyebeijing3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*页面导航*/
+#nav{
+    height: 100px;
+    width: 100%;
+    background-image: url("beijing513.jpg") ;
+}
+.header_left{
+    float: left;
+    margin: 12px 10px 0px;
+}
+.biaoti1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.biaoti2{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.right_ul{
+    padding: 26px;
+}
+.nav_a{
+    font-size: 28px;
+    border-right: 1px solid #b2b2b2;
+    padding: 0px 15px;
+}
+.nav_a:hover{
+    font-size: 28px;
+    border-right: 1px solid #b2b2b2;
+    padding: 0px 15px;
+    color: cornflowerblue;
+}
+/*简介*/
+#jianjie{
+    height: 1500px;
+    padding: 50px 100px;
+}
+#jianjie li{
+    font-weight: bold;
+    font-size: 15px;
+}
+.jianjie_top{
+    padding-top: 50px;
+}
+.xiaozuchengyuan{
+    border: 3px solid darkgray;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background: rgba(245, 223, 124, 0.295);
+}
+.wangzhantedian{
+    border: 3px solid darkgray;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background: rgba(245, 223, 124, 0.295);
+}
+.shejirenwu{
+    border: 3px solid darkgray;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background: rgba(245, 223, 124, 0.295);
+}
+.wentiyujiejue{
+    border: 3px solid darkgray; 
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background: rgba(245, 223, 124, 0.295);
+}
+.wentiyujiejue  li{
+    line-height: 40px;
+}
+.yuqijieguo{
+    border: 3px solid darkgray;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background: rgba(245, 223, 124, 0.295);
+}
+h1{
+    color:rgb(10, 23, 29);
+    font-weight: bolder;
+    text-align: center;
+}
+body{
+    background-color: cornsilk;
+}
+.hr1{
+    width: 500px;
+}
+.jieshao{
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    font-weight: 800;
+    font-size: 18px;
+}
+.tuandui{
+    text-align: right;
+    font-style: oblique;
+    font-weight: bold ;
+}
+.em1{
+    color: rgb(66, 9, 99);
+    font-weight: 900;
+    font-size: 24px;
+}
+.tupian{
+    text-align: left;
+    padding-left: 10em
+}
+/*底部*/
+#footer{
+    height: 40px;
+    margin-bottom: -20px;
+    }
+    .footer_wenzi{
+        line-height: 40px;
+        text-align: center;
+    }
+    .footer_wenzi_a{
+        padding: 10px 10px 20px;
+    }
+    .footer_wenzi_a:hover{
+        padding: 10px 10px 20px;
+        color: khaki;
+    }

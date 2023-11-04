@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="wenjuan.css"/>
+		<meta charset="utf-8">
+		<title>调查问卷页面</title>
+        <style>
+        body{
+            background-image: url("wenjuan/wenjuan4.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+	</head>
+	<body>
+        <!--页面导航-->
+<div id="nav">
+    <div class="container">
+        <div class="header_left">
+            <div class="biaoti1">咱就是说！</div>
+            <div class="biaoti2">交大学生心理健康测试平台</div>
+        </div>
+        <ul class="right_ul">
+            <li class="right"><a class="nav_a" href="denglu.html">登录/注册</a></li>
+            <li class="right"><a class="nav_a" href="xiaozhishi.html">心理小知识</a></li>
+            <li class="right"><a class="nav_a" href="shudong.html">树洞</a></li>
+            <li class="right"><a class="nav_a" href="test.html">测试</a></li>
+            <li class="right"><a class="nav_a" href="jianjie.html">简介</a></li>
+            <li class="right"><a class="nav_a" href="index.html">首页</a></li>
+        </ul>
+    </div>
+</div>
+        <form name="see">
+            <div class="neirong">
+                <p><b>1.喜欢用笔勾出阅读中不懂的地方。</b></p>
+                <p>
+                    <input onclick="begintimer()" type="radio" value="12" name="c1" />否
+                    <input onclick="begintimer()" type="radio" value="32" name="c1" />是
+                </p>
+                <p><b>2.经常阅读与自己学习无直接关系的书籍。</b></p>
+                <p>
+                    <input type="radio" value="11" name="c2" />否
+                    <input type="radio" value="31" name="c2" />是
+                </p>
+                <p><b>3.在观察或思考时，重视自己的看法。而且在遇到问题时，对自己的看法很有信心。</b></p>
+                <p>
+                    <input type="radio" value="11" name="c3" />否
+                    <input type="radio" value="31" name="c3" />是
+                </p>
+                <p><b>4.在对老师将要讲的课会做很充分的预习，并且会预先做一些练习。</b></p>
+                <p>
+                    <input type="radio" value="13" name="c4" />否
+                    <input type="radio" value="33" name="c4" />是
+                </p>
+                <p><b>5.遇到问题，我喜欢和同学一起讨论。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c5" />否
+                    <input type="radio" value="34" name="c5" />是
+                </p>
+                <p><b>6.为更好地理解老师讲的课程，我会对笔记等内容归纳为图表。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c6" />否
+                    <input type="radio" value="34" name="c6" />是
+                </p>
+                <p><b>7.听老师讲解问题时，眼睛注视着老师。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c7" />否
+                    <input type="radio" value="34" name="c7" />是
+                </p>
+                <p><b>8.我喜欢利用参考书和习题集。 </b></p>
+                <p>
+                    <input type="radio" value="14" name="c8" />否
+                    <input type="radio" value="34" name="c8" />是
+                </p>
+                <p><b>9.对于学习中的要点，我会很注意归纳并写出来。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c9" />否
+                    <input type="radio" value="34" name="c9" />是
+                </p>
+                <p><b>10.我经常查阅字典、手册等工具书。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c10" />否
+                    <input type="radio" value="34" name="c10" />是
+                </p>
+                <p><b>11.我对作业和考试中的错误会进行修改并根据试卷分析自己错误的原因。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c11" />否
+                    <input type="radio" value="34" name="c11" />是
+                </p>
+                <p><b>12.我认为重要的内容，就格外注意听讲和理解。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c12" />否
+                    <input type="radio" value="34" name="c12" />是
+                </p>
+                <p><b>13.阅读中若有不懂的地方，非弄懂不可。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c13" />否
+                    <input type="radio" value="34" name="c13" />是
+                </p>
+                <p><b>14.在学习的时候会经常联系其他学科内容进行学习。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c14" />否
+                    <input type="radio" value="34" name="c14" />是
+                </p>
+                <p><b>15.在动笔解题以前，先做全面的审题，有了设想后，才去解题。</b></p>
+                <p>
+                    <input type="radio" value="14" name="c15" />否
+                    <input type="radio" value="34" name="c15" />是
+                </p>
+                <br /><br /><br />
+                <p><input id="btn" onclick=" processForm()" type="button" value="查看测试结果" /></p>
+                <br /><br />
+                </div>
+            </form>
+            <p class="a">返回主页面？ <a href="index.html">返回</a></p>
+            <br>
+            <p class="a">返回测试页面？ <a href="test.html">返回</a></p>
+            <br>
+            <script language="JavaScript">
+                function processForm() {
+                    var sum = 0;
+                    var j=0;
+                    var check=0;
+                    //创建数组
+                    hc = new Array(15);
+                    //如果识别到文档中表单see中第一个问题的第一个选项被选中就使sum+该选项得分
+                    if (document.see.c1[0].checked == 1) sum += 0;
+                    else check++;
+                    if (document.see.c1[1].checked == 1) sum += 1
+                    else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c2[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c2[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c3[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c3[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c4[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c4[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c5[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c5[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c6[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c6[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c7[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c7[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c8[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c8[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;;
+                    check=0;
+                    if (document.see.c9[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c9[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c10[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c10[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c11[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c11[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c12[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c12[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c13[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c13[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c14[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c14[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c15[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c15[1].checked == 1) sum += 1;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if(j)alert("您有题目没有完成\n为保证测试结果的准确性请完成所有题目再提交结果😘");
+                    if(j==0&&sum <= 6) alert("你缺乏正确的学习方法，没有在学习中养成比较好的习惯，这可能导致你在相同的学习量上花更多的时间，可以参考我们测试题中的方法来增加自己学习的能力，多记笔记多归纳，并且要善于思考及联想");
+                    if (j==0&&sum <=11 && sum >=7 ) alert("你大致来说比一般学生更会学习，你懂的学习应该有效率这个道理，也做出了相应的努力，但是还不够完美，应找准自己的不足，并且改正，你可以通过一次次发现不足从而变得更好");
+                    if (j==0&&sum <=15 && sum >=12 ) alert("你学习能力很强，做笔记画思维导图让你的思路更加清晰，提前预习是你比别人更早听懂老师讲的知识，并且你也很虚心向别人请教，这能使你学的更多更透彻，同时你也有刻苦学习以及认真钻研的恒心，这是难能可贵的，应当保持");
+                }
+            </script>
+      
+    </body>
+</html>

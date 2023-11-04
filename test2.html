@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="wenjuan.css"/>
+		<meta charset="utf-8">
+		<title>调查问卷页面</title>
+        <style>
+        body{
+            background-image: url("wenjuan/wenjuan21.jpeg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+	</head>
+	<body>
+        <!--页面导航-->
+<div id="nav">
+    <div class="container">
+        <div class="header_left">
+            <div class="biaoti1">咱就是说！</div>
+            <div class="biaoti2">交大学生心理健康测试平台</div>
+        </div>
+        <ul class="right_ul">
+            <li class="right"><a class="nav_a" href="denglu.html">登录/注册</a></li>
+            <li class="right"><a class="nav_a" href="xiaozhishi.html">心理小知识</a></li>
+            <li class="right"><a class="nav_a" href="shudong.html">树洞</a></li>
+            <li class="right"><a class="nav_a" href="test.html">测试</a></li>
+            <li class="right"><a class="nav_a" href="jianjie.html">简介</a></li>
+            <li class="right"><a class="nav_a" href="index.html">首页</a></li>
+        </ul>
+    </div>
+</div>
+        <form name="see">
+            <div class="neirong">
+                <p><b>1.能说出男（女）朋友挚友的名字</b></p>
+                <p>
+                    <input onclick="begintimer()" type="radio" value="12" name="c1" />否
+                    <input onclick="begintimer()" type="radio" value="32" name="c1" />是
+                </p>
+                <p><b>2.知道男（女）朋友目前面临的压力</b></p>
+                <p>
+                    <input type="radio" value="11" name="c2" />否
+                    <input type="radio" value="31" name="c2" />是
+                </p>
+                <p><b>3.能说出最近让男（女）朋友觉得恼火的人的名字</b></p>
+                <p>
+                    <input type="radio" value="11" name="c3" />否
+                    <input type="radio" value="31" name="c3" />是
+                </p>
+                <p><b>4.能说出男（女）朋友的某些人生梦想</b></p>
+                <p>
+                    <input type="radio" value="13" name="c4" />否
+                    <input type="radio" value="33" name="c4" />是
+                </p>
+                <p><b>5.非常了解男（女）朋友的宗教信仰和想法</b></p>
+                <p>
+                    <input type="radio" value="14" name="c5" />否
+                    <input type="radio" value="34" name="c5" />是
+                </p>
+                <p><b>6.能说出男（女）朋友的基本人生观念</b></p>
+                <p>
+                    <input type="radio" value="14" name="c6" />否
+                    <input type="radio" value="34" name="c6" />是
+                </p>
+                <p><b>7.知道男（女）朋友最喜欢的音乐</b></p>
+                <p>
+                    <input type="radio" value="14" name="c7" />否
+                    <input type="radio" value="34" name="c7" />是
+                </p>
+                <p><b>8.能列出男（女）朋友最喜欢的三部电影</b></p>
+                <p>
+                    <input type="radio" value="14" name="c8" />否
+                    <input type="radio" value="34" name="c8" />是
+                </p>
+                <p><b>9.知道男（女）朋友的缺点并能包容</b></p>
+                <p>
+                    <input type="radio" value="14" name="c9" />否
+                    <input type="radio" value="34" name="c9" />是
+                </p>
+                <p><b>10. 男（女）朋友了解我目前的压力</b></p>
+                <p>
+                    <input type="radio" value="14" name="c10" />否
+                    <input type="radio" value="34" name="c10" />是
+                </p>
+                <p><b>11. 知道男（女）朋友生命中3个最特别的时刻</b></p>
+                <p>
+                    <input type="radio" value="14" name="c11" />否
+                    <input type="radio" value="34" name="c11" />是
+                </p>
+                <p><b>12. 能说出男（女）朋友小时候遇到的最紧张的事</b></p>
+                <p>
+                    <input type="radio" value="14" name="c12" />否
+                    <input type="radio" value="34" name="c12" />是
+                </p>
+                <p><b>13. 能列出男（女）朋友人生的主要指向与期望</b></p>
+                <p>
+                    <input type="radio" value="14" name="c13" />否
+                    <input type="radio" value="34" name="c13" />是
+                </p>
+                <p><b>14. 知道男（女）朋友目前最主要的烦恼</b></p>
+                <p>
+                    <input type="radio" value="14" name="c14" />否
+                    <input type="radio" value="34" name="c14" />是
+                </p>
+                <p><b>15. 男（女）朋友知道我的挚友</b></p>
+                <p>
+                    <input type="radio" value="14" name="c15" />否
+                    <input type="radio" value="34" name="c15" />是
+                </p>
+                <p><b>16.如果男（女）朋友买彩票中大奖，我知道对方想做什么</b></p>
+                <p>
+                    <input type="radio" value="14" name="c16" />否
+                    <input type="radio" value="34" name="c16" />是
+                </p>
+                <p><b>17. 能详细说出第一次遇到男（女）朋友时的印象</b></p>
+                <p>
+                    <input type="radio" value="14" name="c17" />否
+                    <input type="radio" value="34" name="c17" />是
+                </p>
+                <p><b>18. 会定期询问男（女）朋友世界中正在发生的事</b></p>
+                <p>
+                    <input type="radio" value="14" name="c18" />否
+                    <input type="radio" value="34" name="c18" />是
+                </p>
+                <p><b>19. 觉得男（女）朋友很了解自己</b></p>
+                <p>
+                    <input type="radio" value="14" name="c19" />否
+                    <input type="radio" value="34" name="c19" />是
+                </p>
+                <p><b>20、 男（女）朋友了解我的期望与志向</b></p>
+                <p>
+                    <input type="radio" value="14" name="c20" />否
+                    <input type="radio" value="34" name="c20" />是
+                </p>
+                <br /><br /><br />
+                <p><input id="btn" onclick=" processForm()" type="button" value="查看测试结果" /></p>
+                <br /><br />
+                </div>
+            </form>
+            <p class="a">返回主页面？ <a href="index.html">返回</a></p>
+            <br>
+            <p class="a">返回测试页面？ <a href="test.html">返回</a></p>
+            <br>
+            <script language="JavaScript">
+                function processForm() {
+                    var sum = 0;
+                    var j=0;
+                    var check=0;
+                    //创建数组
+                    hc = new Array(20);
+                    //如果识别到文档中表单see中第一个问题的第一个选项被选中就使sum+该选项得分
+                    if (document.see.c1[0].checked == 1) sum += 0;
+                    else check++;
+                    if (document.see.c1[1].checked == 1) sum += 2
+                    else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c2[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c2[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c3[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c3[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c4[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c4[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c5[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c5[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c6[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c6[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c7[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c7[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c8[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c8[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;;
+                    check=0;
+                    if (document.see.c9[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c9[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c10[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c10[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c11[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c11[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c12[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c12[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c13[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c13[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c14[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c14[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c15[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c15[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c16[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c16[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c17[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c17[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c18[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c18[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c19[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c19[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;
+                    if (document.see.c20[0].checked == 1) sum += 0;else check++;
+                    if (document.see.c20[1].checked == 1) sum += 2;else check++;
+                    if(check==2) j++;
+                    check=0;    
+                    if(j)alert("您有题目没有完成\n为保证测试结果的准确性请完成所有题目再提交结果😘");
+                    if(j==0&&sum <= 8) alert("对男（女）朋友了解不多，不怎么亲密，需要加强对男（女）朋友的关心，否则感情很容易出现问题，对双方心理都会是很大考验");
+                    if (j==0&&sum <=30 && sum >=10 ) alert("对男（女）朋友大致了解，比较亲密，如果双方性格都比较独立可以保持好这种状态，如果想要更了解对方可以多多交流，遇到问题及时解决，通过一些小心机增加亲密度");
+                    if (j==0&&sum <=40 && sum >=32 ) alert("对男（女）朋友非常了解，非常亲密，现在的感情可能是双方共度风雨得来的，也可能是情侣正处于热恋期，无论如何，也要学会适当花些时间与精力在对方身上，保持精神上的互通");
+                }
+            </script>
+      
+    </body>
+</html>
