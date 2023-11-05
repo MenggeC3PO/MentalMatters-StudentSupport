@@ -19,3 +19,7 @@ From the technical pespective, this project involves fundamental web development
 - CSS
 - JavaScript
 
+## Version control 
+- git
+- git LFS (Git Large File Storage)
+
