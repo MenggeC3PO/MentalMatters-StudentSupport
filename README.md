@@ -23,3 +23,8 @@ From the technical pespective, this project involves fundamental web development
 - git
 - git LFS (Git Large File Storage)
 
+## Snapshot
+![mentalhealth website](Snapshot.png)
+
+  
+
